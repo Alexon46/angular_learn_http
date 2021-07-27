@@ -1,0 +1,8 @@
+<div class="form__wrap">
+    <div class="form">
+        <label>
+            <input type="text" placeholder="User name" [(ngModel)]="searchString" (keydown.enter)="search()">
+        </label>
+        <button class="form__btn" (click)="search()">Search</button>
+    </div>
+</div>

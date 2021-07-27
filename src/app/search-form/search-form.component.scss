@@ -1,0 +1,10 @@
+.form {
+    display: flex;
+    &__wrap {
+        max-width: 500px;
+        margin: 1em auto 2em;
+    }
+    &__btn {
+        margin-left: 10px;
+    }
+}
